@@ -56,7 +56,7 @@ async def _human_time_duration(seconds):
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgQAAxkBAAI8bmKIvgnlJyCrq9HIxSvCZCbm5CEjAAIaEAACpvFxHg-Z648-SCRWJAQ")
+    await message.reply_sticker("CAACAgUAAxkBAAFQnDVi9kPEOQLPoiovuh9wLy_8oUwxpAACNwQAAufQAAFU8bbVodHVqncpBA")
     await message.reply_text(
         f"""● **ᴍᴇʀʜᴀʙᴀ {message.from_user.mention()} **\n
 ● **ᴛᴇʟᴇɢʀᴀᴍ sᴇsʟɪ sᴏʜʙᴇᴛʟᴇʀɪ ᴀʀᴀᴄɪʟɪɢɪʏʟᴀ ɢʀᴜʙʟᴀʀᴅᴀ ᴍᴜᴢɪᴋ ᴅɪɴʟᴇᴍᴇɴɪᴢɪ ᴠᴇ ᴠɪᴅᴇᴏ ɪᴢʟᴇᴍᴇɴɪᴢɪ sᴀɢʟɪʏᴀʙɪʟɪʀɪᴍ . . !**
@@ -69,13 +69,13 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉  ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ  🎉",
+                        "⚡️  ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ  ⚡️",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton("📚 ᴋᴏᴍᴜᴛʟᴀʀ", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 sᴀʜɪʙɪᴍ", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤️‍🔥 sᴀʜɪʙɪᴍ", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -124,7 +124,7 @@ async def alive(c: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("pinging...")
+    m_reply = await message.reply_text("ping yükleniyore...")
     delta_ping = time() - start
     await m_reply.edit_text("🏓 `ᴘɪɴɢ!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
@@ -135,7 +135,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 ʙᴏᴛ ᴅᴜʀᴜᴍᴜ :\n"
+        "🤖 ʙᴏᴛ kayfı :\n"
         f"• ** ᴜᴘᴛɪᴍᴇ :** `{uptime}`\n"
         f"• ** ᴛɪᴍᴇ :** `{START_TIME_ISO}`"
     )

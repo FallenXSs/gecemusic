@@ -1,7 +1,7 @@
 {
-    "name": "MuudcVideo x Music Bot",
+    "name": "Gece Music x Music Bot",
     "description": "Video ve Müzik Akışı için Telegram botu",
-    "logo": "https://telegra.ph//file/4c86190fcbe14428c8c6b.jpg",
+    "logo": "https://telegra.ph/file/3d8b292a8d8d11d49b097.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/mutsuz_panda",
-    "repository": "https://github.com/amahocam/muudvideo",
-    "success_url": "https://t.me/Richard_Ramirezz",
+    "website": "https://t.me/iamZ3NT4",
+    "repository": "https://github.com/SiyahimsinXSs/gecemusic",
+    "success_url": "https://t.me/JasmineSup",
     "env": {
         "API_ID": {
             "description": "My.telegram'dan uygulama apı-hash.org/apps",

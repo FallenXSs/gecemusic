@@ -74,15 +74,15 @@ async def start_(client: Client, message: Message):
                     )
                 ],
                 [
-                    InlineKeyboardButton("📚 ᴋᴏᴍᴜᴛʟᴀʀ", callback_data="cbcmds"),
+                    InlineKeyboardButton("💫 ᴋᴏᴍᴀɴᴅᴀʟᴀʀ", callback_data="cbcmds"),
                     InlineKeyboardButton("❤️‍🔥 sᴀʜɪʙɪᴍ", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗯️ ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "Söhbət Grupum", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 ʙɪʟɢɪ ᴋᴀɴᴀʟɪ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Rəsmi Kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
             ]
@@ -103,7 +103,7 @@ async def alive(c: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📣 ᴅᴇsᴛᴇᴋ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("📣 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
                     "🗯️ ʙɪʟɢɪ", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
@@ -135,7 +135,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 ʙᴏᴛ kayfı :\n"
+        "🤖 ʙᴏᴛ  :\n"
         f"• ** ᴜᴘᴛɪᴍᴇ :** `{uptime}`\n"
         f"• ** ᴛɪᴍᴇ :** `{START_TIME_ISO}`"
     )

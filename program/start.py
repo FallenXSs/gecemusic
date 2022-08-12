@@ -58,12 +58,12 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAFQnDVi9kPEOQLPoiovuh9wLy_8oUwxpAACNwQAAufQAAFU8bbVodHVqncpBA")
     await message.reply_text(
-        f"""● **ᴍᴇʀʜᴀʙᴀ {message.from_user.mention()} **\n
-● **ᴛᴇʟᴇɢʀᴀᴍ sᴇsʟɪ sᴏʜʙᴇᴛʟᴇʀɪ ᴀʀᴀᴄɪʟɪɢɪʏʟᴀ ɢʀᴜʙʟᴀʀᴅᴀ ᴍᴜᴢɪᴋ ᴅɪɴʟᴇᴍᴇɴɪᴢɪ ᴠᴇ ᴠɪᴅᴇᴏ ɪᴢʟᴇᴍᴇɴɪᴢɪ sᴀɢʟɪʏᴀʙɪʟɪʀɪᴍ . . !**
+        f"""● **salam {message.from_user.mention()} **\n
+● **ᴍᴇɴ səsʟi söʜʙəᴛʟəʀ'ᴅə ᴍᴜsiǫi ᴏxᴜʏᴀ ʙiʟəʀ ᴠə ʏᴀ Yᴏᴜᴛᴜʙᴇ üᴢəʀiɴᴅəɴ siᴢiɴ üçüɴ ᴍᴘ'3 ᴍᴀʜɴɪʟᴀʀ ᴛᴀᴘᴀ ʙiʟəʀəᴍ! . . !**
 
-● **ʜᴇʀʜᴀɴɢɪ ʙɪʀ sᴏʀᴜɴ ɪʟᴇ ᴋᴀʀsɪʟᴀsɪʀsᴀɴɪᴢ ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜᴍᴜᴢᴀ ʙᴀsᴠᴜʀᴍᴀʏɪ ɪʜᴍᴀʟ ᴇᴛᴍᴇʏɪɴ . . !**
+● **Hər hansı bir problemlə qarşılaşsanız, dəstək qrupumuzla əlaqə saxlamağı unutmayın. . . !**
 
-● **📚 ᴋᴏᴍᴜᴛʟᴀʀ ʙᴜᴛᴏɴᴜɴᴀ ᴛɪᴋʟᴀʏɪᴘ ᴛᴜᴍ ᴋᴏᴍᴜᴛʟᴀʀɪ ᴏɢʀᴇɴɪɴ . . !**
+● **📚 Komandalar üçün Komanda Düyməsinə Tıklayın|REXXUX  . . !**
 """,
         reply_markup=InlineKeyboardMarkup(
             [

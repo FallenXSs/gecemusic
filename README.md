@@ -1,8 +1,8 @@
-<h2 align="centre">Muud Music Mp3 Video Oynatıcı 🎵</h2>
+<h2 align="centre">Gece Music Mp3 Video Oynatıcı 🎵</h2>
 
 ### Güncellendi aktif.... 
 <p align="center">
-  <img src="https://telegra.ph//file/4c86190fcbe14428c8c6b.jpg">
+  <img src="https://telegra.ph/file/eb0adba87ae626110404f.jpg">
 </p> 
 
 ### Komutlar Genel 🍭
@@ -35,18 +35,9 @@
 - `/alive` - botun çalışma bilgilerini gösterir !
 <h4>🔺 Herokuya Dağıt 🔻</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/amahocam/muudvideo)
-
-
-## ᴅᴇᴩʟᴏʏ ᴏɴ ᴏᴋᴛᴇᴛᴏ
-
-<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/Gecekus/muudvideo"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200" height="35.45"/></a></p>
-
-Get pyrogram (p)  `SESSION` buradan:
-
-[![Run on Repl.it](https://repl.it/badge/github/Makoto-XD/Session-Generator)](https://replit.com/@Makoto-XD/Session-Generator)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SiyahimsinXSs/gecemusic)
 
 #### Düzen tasarım
-- [#Ge͂̂͝c̨͒ͤ̕͜e̡͝ k̶̴̛ͮ͌̒̃͟͡uş̟̲͎u̼͓̭̝ͦ̂͋̈̋̔](https://t.me/mutsuz_panda)
-- İnstagram [@ama_hocaam](https://instagram.com/ama_hocaam?igshid=YmMyMTA2M2Y=)
-- Kaynak repo [LEVİNA](https://github.com/levina-lab)
+- [#Zenta](https://t.me/iamZ3NT4)
+- 
+- Kaynak repo [SiyahimsinXSs](https://github.com/SiyahimsinXSs)

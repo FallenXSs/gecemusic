@@ -35,9 +35,9 @@
 - `/alive` - botun çalışma bilgilerini gösterir !
 <h4>🔺 Herokuya Dağıt 🔻</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SiyahimsinXSs/gecemusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FallenXSs/gecemusic)
 
 #### Düzen tasarım
-- [#Zenta](https://t.me/iamZ3NT4)
+- [#Zenta](https://t.me/HzZenta)
 - 
-- Kaynak repo [SiyahimsinXSs](https://github.com/SiyahimsinXSs)
+- Kaynak repo [#Fallen](https://github.com/FallenXSs)
